@@ -1,0 +1,18 @@
+The libraries installed in this virtual enviroment:
+- numpy
+- matplot
+- requests
+- pandas
+
+
+to create virtual enviroment
+...
+python[3.9] -m venv [nameOfVirtualEnviroment]
+source [nameOfVirtualEnviroment]/bin/activate
+...
+
+to install library
+...
+pip3 install --upgrade pip
+pip3 install [library]
+...

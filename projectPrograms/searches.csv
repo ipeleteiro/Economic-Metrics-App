@@ -1,0 +1,3 @@
+,table,dataset,version,namespace,channel,is_public,dimensions,path,formats
+5779,greenhouse_gas_emissions_by_sector,emissions_by_sector,2023-10-31,climate_watch,garden,True,['country' 'year'],garden/climate_watch/2023-10-31/emissions_by_sector/greenhouse_gas_emissions_by_sector,['feather']
+5780,greenhouse_gas_emissions_by_sector,ghg_emissions_by_sector,2022-08-10,cait,garden,True,['country' 'year'],garden/cait/2022-08-10/ghg_emissions_by_sector/greenhouse_gas_emissions_by_sector,['feather']

@@ -1,0 +1,379 @@
+country,year,scenario_type,plastic_type,value
+World,2019,Baseline,Macroplastics,19378000.0
+World,2019,Baseline,Microplastics,2684000.0
+World,2019,Baseline,Total,22062000.0
+World,2019,Global ambition policy,Macroplastics,19397000.0
+World,2019,Global ambition policy,Microplastics,2684000.0
+World,2019,Global ambition policy,Total,22081000.0
+World,2019,Regional action policy,Macroplastics,19397000.0
+World,2019,Regional action policy,Microplastics,2684000.0
+World,2019,Regional action policy,Total,22081000.0
+World,2020,Baseline,Macroplastics,19702000.0
+World,2020,Baseline,Microplastics,2704000.0
+World,2020,Baseline,Total,22406000.0
+World,2020,Global ambition policy,Macroplastics,19512000.0
+World,2020,Global ambition policy,Microplastics,2704000.0
+World,2020,Global ambition policy,Total,22216000.0
+World,2020,Regional action policy,Macroplastics,19633000.0
+World,2020,Regional action policy,Microplastics,2704000.0
+World,2020,Regional action policy,Total,22337000.0
+World,2021,Baseline,Macroplastics,19991000.0
+World,2021,Baseline,Microplastics,2771000.0
+World,2021,Baseline,Total,22762000.0
+World,2021,Global ambition policy,Macroplastics,19579000.0
+World,2021,Global ambition policy,Microplastics,2771000.0
+World,2021,Global ambition policy,Total,22350000.0
+World,2021,Regional action policy,Macroplastics,19822000.0
+World,2021,Regional action policy,Microplastics,2771000.0
+World,2021,Regional action policy,Total,22593000.0
+World,2022,Baseline,Macroplastics,20329000.0
+World,2022,Baseline,Microplastics,2841000.0
+World,2022,Baseline,Total,23170000.0
+World,2022,Global ambition policy,Macroplastics,19270000.0
+World,2022,Global ambition policy,Microplastics,2834000.0
+World,2022,Global ambition policy,Total,22104000.0
+World,2022,Regional action policy,Macroplastics,19829000.0
+World,2022,Regional action policy,Microplastics,2840000.0
+World,2022,Regional action policy,Total,22669000.0
+World,2023,Baseline,Macroplastics,20619000.0
+World,2023,Baseline,Microplastics,2910000.0
+World,2023,Baseline,Total,23529000.0
+World,2023,Global ambition policy,Macroplastics,18735000.0
+World,2023,Global ambition policy,Microplastics,2887000.0
+World,2023,Global ambition policy,Total,21621000.0
+World,2023,Regional action policy,Macroplastics,19757000.0
+World,2023,Regional action policy,Microplastics,2905000.0
+World,2023,Regional action policy,Total,22662000.0
+World,2024,Baseline,Macroplastics,20901000.0
+World,2024,Baseline,Microplastics,2976000.0
+World,2024,Baseline,Total,23877000.0
+World,2024,Global ambition policy,Macroplastics,18363000.0
+World,2024,Global ambition policy,Microplastics,2937000.0
+World,2024,Global ambition policy,Total,21301000.0
+World,2024,Regional action policy,Macroplastics,19778000.0
+World,2024,Regional action policy,Microplastics,2969000.0
+World,2024,Regional action policy,Total,22747000.0
+World,2025,Baseline,Macroplastics,21197000.0
+World,2025,Baseline,Microplastics,3040000.0
+World,2025,Baseline,Total,24238000.0
+World,2025,Global ambition policy,Macroplastics,17991000.0
+World,2025,Global ambition policy,Microplastics,2986000.0
+World,2025,Global ambition policy,Total,20977000.0
+World,2025,Regional action policy,Macroplastics,19786000.0
+World,2025,Regional action policy,Microplastics,3030000.0
+World,2025,Regional action policy,Total,22816000.0
+World,2026,Baseline,Macroplastics,21514000.0
+World,2026,Baseline,Microplastics,3105000.0
+World,2026,Baseline,Total,24619000.0
+World,2026,Global ambition policy,Macroplastics,17604000.0
+World,2026,Global ambition policy,Microplastics,3033000.0
+World,2026,Global ambition policy,Total,20637000.0
+World,2026,Regional action policy,Macroplastics,19790000.0
+World,2026,Regional action policy,Microplastics,3090000.0
+World,2026,Regional action policy,Total,22880000.0
+World,2027,Baseline,Macroplastics,21844000.0
+World,2027,Baseline,Microplastics,3174000.0
+World,2027,Baseline,Total,25019000.0
+World,2027,Global ambition policy,Macroplastics,17194000.0
+World,2027,Global ambition policy,Microplastics,3076000.0
+World,2027,Global ambition policy,Total,20270000.0
+World,2027,Regional action policy,Macroplastics,19785000.0
+World,2027,Regional action policy,Microplastics,3149000.0
+World,2027,Regional action policy,Total,22935000.0
+World,2028,Baseline,Macroplastics,22188000.0
+World,2028,Baseline,Microplastics,3245000.0
+World,2028,Baseline,Total,25433000.0
+World,2028,Global ambition policy,Macroplastics,16775000.0
+World,2028,Global ambition policy,Microplastics,3116000.0
+World,2028,Global ambition policy,Total,19891000.0
+World,2028,Regional action policy,Macroplastics,19785000.0
+World,2028,Regional action policy,Microplastics,3209000.0
+World,2028,Regional action policy,Total,22994000.0
+World,2029,Baseline,Macroplastics,22537000.0
+World,2029,Baseline,Microplastics,3317000.0
+World,2029,Baseline,Total,25854000.0
+World,2029,Global ambition policy,Macroplastics,16365999.0
+World,2029,Global ambition policy,Microplastics,3157000.0
+World,2029,Global ambition policy,Total,19523000.0
+World,2029,Regional action policy,Macroplastics,19796000.0
+World,2029,Regional action policy,Microplastics,3271000.0
+World,2029,Regional action policy,Total,23067000.0
+World,2030,Baseline,Macroplastics,22887000.0
+World,2030,Baseline,Microplastics,3389000.0
+World,2030,Baseline,Total,26276000.0
+World,2030,Global ambition policy,Macroplastics,15966000.0
+World,2030,Global ambition policy,Microplastics,3201000.0
+World,2030,Global ambition policy,Total,19166000.0
+World,2030,Regional action policy,Macroplastics,19808000.0
+World,2030,Regional action policy,Microplastics,3335000.0
+World,2030,Regional action policy,Total,23143000.0
+World,2031,Baseline,Macroplastics,23292000.0
+World,2031,Baseline,Microplastics,3462000.0
+World,2031,Baseline,Total,26754000.0
+World,2031,Global ambition policy,Macroplastics,15798000.0
+World,2031,Global ambition policy,Microplastics,3256000.0
+World,2031,Global ambition policy,Total,19054000.0
+World,2031,Regional action policy,Macroplastics,19950000.0
+World,2031,Regional action policy,Microplastics,3400000.0
+World,2031,Regional action policy,Total,23350000.0
+World,2032,Baseline,Macroplastics,23701000.0
+World,2032,Baseline,Microplastics,3536000.0
+World,2032,Baseline,Total,27237000.0
+World,2032,Global ambition policy,Macroplastics,15533000.0
+World,2032,Global ambition policy,Microplastics,3314000.0
+World,2032,Global ambition policy,Total,18847000.0
+World,2032,Regional action policy,Macroplastics,19999000.0
+World,2032,Regional action policy,Microplastics,3466000.0
+World,2032,Regional action policy,Total,23465000.0
+World,2033,Baseline,Macroplastics,24119000.0
+World,2033,Baseline,Microplastics,3609000.0
+World,2033,Baseline,Total,27728000.0
+World,2033,Global ambition policy,Macroplastics,15262000.0
+World,2033,Global ambition policy,Microplastics,3371000.0
+World,2033,Global ambition policy,Total,18634000.0
+World,2033,Regional action policy,Macroplastics,20056000.0
+World,2033,Regional action policy,Microplastics,3533000.0
+World,2033,Regional action policy,Total,23588000.0
+World,2034,Baseline,Macroplastics,24547000.0
+World,2034,Baseline,Microplastics,3683000.0
+World,2034,Baseline,Total,28230000.0
+World,2034,Global ambition policy,Macroplastics,15005000.0
+World,2034,Global ambition policy,Microplastics,3430000.0
+World,2034,Global ambition policy,Total,18436000.0
+World,2034,Regional action policy,Macroplastics,20137000.0
+World,2034,Regional action policy,Microplastics,3601000.0
+World,2034,Regional action policy,Total,23737000.0
+World,2035,Baseline,Macroplastics,24985000.0
+World,2035,Baseline,Microplastics,3757000.0
+World,2035,Baseline,Total,28742000.0
+World,2035,Global ambition policy,Macroplastics,14757000.0
+World,2035,Global ambition policy,Microplastics,3496000.0
+World,2035,Global ambition policy,Total,18253000.0
+World,2035,Regional action policy,Macroplastics,20230000.0
+World,2035,Regional action policy,Microplastics,3674000.0
+World,2035,Regional action policy,Total,23904000.0
+World,2036,Baseline,Macroplastics,25432000.0
+World,2036,Baseline,Microplastics,3830000.0
+World,2036,Baseline,Total,29263000.0
+World,2036,Global ambition policy,Macroplastics,14509000.0
+World,2036,Global ambition policy,Microplastics,3566000.0
+World,2036,Global ambition policy,Total,18075000.0
+World,2036,Regional action policy,Macroplastics,20318000.0
+World,2036,Regional action policy,Microplastics,3748000.0
+World,2036,Regional action policy,Total,24066000.0
+World,2037,Baseline,Macroplastics,25886000.0
+World,2037,Baseline,Microplastics,3905000.0
+World,2037,Baseline,Total,29791000.0
+World,2037,Global ambition policy,Macroplastics,14251000.0
+World,2037,Global ambition policy,Microplastics,3636000.0
+World,2037,Global ambition policy,Total,17886000.0
+World,2037,Regional action policy,Macroplastics,20382000.0
+World,2037,Regional action policy,Microplastics,3820000.0
+World,2037,Regional action policy,Total,24202000.0
+World,2038,Baseline,Macroplastics,26371000.0
+World,2038,Baseline,Microplastics,3979000.0
+World,2038,Baseline,Total,30350000.0
+World,2038,Global ambition policy,Macroplastics,13994000.0
+World,2038,Global ambition policy,Microplastics,3704000.0
+World,2038,Global ambition policy,Total,17698000.0
+World,2038,Regional action policy,Macroplastics,20449000.0
+World,2038,Regional action policy,Microplastics,3890000.0
+World,2038,Regional action policy,Total,24339000.0
+World,2039,Baseline,Macroplastics,26861000.0
+World,2039,Baseline,Microplastics,4054000.0
+World,2039,Baseline,Total,30915000.0
+World,2039,Global ambition policy,Macroplastics,13733000.0
+World,2039,Global ambition policy,Microplastics,3770000.0
+World,2039,Global ambition policy,Total,17503000.0
+World,2039,Regional action policy,Macroplastics,20506000.0
+World,2039,Regional action policy,Microplastics,3959000.0
+World,2039,Regional action policy,Total,24465000.0
+World,2040,Baseline,Macroplastics,27353000.0
+World,2040,Baseline,Microplastics,4129000.2
+World,2040,Baseline,Total,31483000.0
+World,2040,Global ambition policy,Macroplastics,13462000.0
+World,2040,Global ambition policy,Microplastics,3836000.0
+World,2040,Global ambition policy,Total,17298000.0
+World,2040,Regional action policy,Macroplastics,20558000.0
+World,2040,Regional action policy,Microplastics,4026000.0
+World,2040,Regional action policy,Total,24584000.0
+World,2041,Baseline,Macroplastics,27891000.0
+World,2041,Baseline,Microplastics,4204000.0
+World,2041,Baseline,Total,32095002.0
+World,2041,Global ambition policy,Macroplastics,13148000.0
+World,2041,Global ambition policy,Microplastics,3901000.0
+World,2041,Global ambition policy,Total,17049000.0
+World,2041,Regional action policy,Macroplastics,20559000.0
+World,2041,Regional action policy,Microplastics,4094999.8
+World,2041,Regional action policy,Total,24654000.0
+World,2042,Baseline,Macroplastics,28430000.0
+World,2042,Baseline,Microplastics,4279000.0
+World,2042,Baseline,Total,32709000.0
+World,2042,Global ambition policy,Macroplastics,12826000.0
+World,2042,Global ambition policy,Microplastics,3966000.0
+World,2042,Global ambition policy,Total,16792000.0
+World,2042,Regional action policy,Macroplastics,20557000.0
+World,2042,Regional action policy,Microplastics,4163000.0
+World,2042,Regional action policy,Total,24720000.0
+World,2043,Baseline,Macroplastics,28974000.0
+World,2043,Baseline,Microplastics,4354000.0
+World,2043,Baseline,Total,33327000.0
+World,2043,Global ambition policy,Macroplastics,12497000.0
+World,2043,Global ambition policy,Microplastics,4031000.2
+World,2043,Global ambition policy,Total,16528000.0
+World,2043,Regional action policy,Macroplastics,20547000.0
+World,2043,Regional action policy,Microplastics,4232000.0
+World,2043,Regional action policy,Total,24778000.0
+World,2044,Baseline,Macroplastics,29521000.0
+World,2044,Baseline,Microplastics,4429000.0
+World,2044,Baseline,Total,33950000.0
+World,2044,Global ambition policy,Macroplastics,12150000.0
+World,2044,Global ambition policy,Microplastics,4097000.0
+World,2044,Global ambition policy,Total,16247000.0
+World,2044,Regional action policy,Macroplastics,20522000.0
+World,2044,Regional action policy,Microplastics,4300000.0
+World,2044,Regional action policy,Total,24823000.0
+World,2045,Baseline,Macroplastics,30066000.0
+World,2045,Baseline,Microplastics,4505000.0
+World,2045,Baseline,Total,34572000.0
+World,2045,Global ambition policy,Macroplastics,11777000.0
+World,2045,Global ambition policy,Microplastics,4162000.2
+World,2045,Global ambition policy,Total,15940000.0
+World,2045,Regional action policy,Macroplastics,20470000.0
+World,2045,Regional action policy,Microplastics,4370000.0
+World,2045,Regional action policy,Total,24839000.0
+World,2046,Baseline,Macroplastics,30609000.0
+World,2046,Baseline,Microplastics,4582000.0
+World,2046,Baseline,Total,35191000.0
+World,2046,Global ambition policy,Macroplastics,11381000.0
+World,2046,Global ambition policy,Microplastics,4229000.0
+World,2046,Global ambition policy,Total,15610000.0
+World,2046,Regional action policy,Macroplastics,20375000.0
+World,2046,Regional action policy,Microplastics,4440000.0
+World,2046,Regional action policy,Total,24815000.0
+World,2047,Baseline,Macroplastics,31145000.0
+World,2047,Baseline,Microplastics,4659000.0
+World,2047,Baseline,Total,35805000.0
+World,2047,Global ambition policy,Macroplastics,10956000.0
+World,2047,Global ambition policy,Microplastics,4295000.0
+World,2047,Global ambition policy,Total,15251000.0
+World,2047,Regional action policy,Macroplastics,20247000.0
+World,2047,Regional action policy,Microplastics,4511000.0
+World,2047,Regional action policy,Total,24758000.0
+World,2048,Baseline,Macroplastics,31679000.0
+World,2048,Baseline,Microplastics,4737000.0
+World,2048,Baseline,Total,36415000.0
+World,2048,Global ambition policy,Macroplastics,10496000.0
+World,2048,Global ambition policy,Microplastics,4362000.0
+World,2048,Global ambition policy,Total,14858000.0
+World,2048,Regional action policy,Macroplastics,20091000.0
+World,2048,Regional action policy,Microplastics,4582000.0
+World,2048,Regional action policy,Total,24673000.0
+World,2049,Baseline,Macroplastics,32208000.0
+World,2049,Baseline,Microplastics,4815000.0
+World,2049,Baseline,Total,37023000.0
+World,2049,Global ambition policy,Macroplastics,9999000.0
+World,2049,Global ambition policy,Microplastics,4429000.0
+World,2049,Global ambition policy,Total,14429000.0
+World,2049,Regional action policy,Macroplastics,19905000.0
+World,2049,Regional action policy,Microplastics,4654000.0
+World,2049,Regional action policy,Total,24559000.0
+World,2050,Baseline,Macroplastics,32744998.0
+World,2050,Baseline,Microplastics,4894000.0
+World,2050,Baseline,Total,37638000.0
+World,2050,Global ambition policy,Macroplastics,9466000.0
+World,2050,Global ambition policy,Microplastics,4497000.0
+World,2050,Global ambition policy,Total,13963000.0
+World,2050,Regional action policy,Macroplastics,19686000.0
+World,2050,Regional action policy,Microplastics,4727000.0
+World,2050,Regional action policy,Total,24413000.0
+World,2051,Baseline,Macroplastics,33307000.0
+World,2051,Baseline,Microplastics,4977000.0
+World,2051,Baseline,Total,38284000.0
+World,2051,Global ambition policy,Macroplastics,8735000.0
+World,2051,Global ambition policy,Microplastics,4568000.0
+World,2051,Global ambition policy,Total,13304000.0
+World,2051,Regional action policy,Macroplastics,19289000.0
+World,2051,Regional action policy,Microplastics,4803000.0
+World,2051,Regional action policy,Total,24093000.0
+World,2052,Baseline,Macroplastics,33865000.0
+World,2052,Baseline,Microplastics,5061000.0
+World,2052,Baseline,Total,38926000.0
+World,2052,Global ambition policy,Macroplastics,7964000.0
+World,2052,Global ambition policy,Microplastics,4641000.0
+World,2052,Global ambition policy,Total,12605000.0
+World,2052,Regional action policy,Macroplastics,18868000.0
+World,2052,Regional action policy,Microplastics,4882000.0
+World,2052,Regional action policy,Total,23749000.0
+World,2053,Baseline,Macroplastics,34421000.0
+World,2053,Baseline,Microplastics,5147000.0
+World,2053,Baseline,Total,39568000.0
+World,2053,Global ambition policy,Macroplastics,7151000.0
+World,2053,Global ambition policy,Microplastics,4715000.0
+World,2053,Global ambition policy,Total,11866000.0
+World,2053,Regional action policy,Macroplastics,18418000.0
+World,2053,Regional action policy,Microplastics,4961000.0
+World,2053,Regional action policy,Total,23379000.0
+World,2054,Baseline,Macroplastics,34975000.0
+World,2054,Baseline,Microplastics,5234000.0
+World,2054,Baseline,Total,40210000.0
+World,2054,Global ambition policy,Macroplastics,6293000.0
+World,2054,Global ambition policy,Microplastics,4791000.0
+World,2054,Global ambition policy,Total,11084000.0
+World,2054,Regional action policy,Macroplastics,17939000.0
+World,2054,Regional action policy,Microplastics,5041000.0
+World,2054,Regional action policy,Total,22981000.0
+World,2055,Baseline,Macroplastics,35537000.0
+World,2055,Baseline,Microplastics,5323000.0
+World,2055,Baseline,Total,40860000.0
+World,2055,Global ambition policy,Macroplastics,5391000.0
+World,2055,Global ambition policy,Microplastics,4867000.0
+World,2055,Global ambition policy,Total,10258000.0
+World,2055,Regional action policy,Macroplastics,17435000.0
+World,2055,Regional action policy,Microplastics,5123000.0
+World,2055,Regional action policy,Total,22558000.0
+World,2056,Baseline,Macroplastics,36106000.0
+World,2056,Baseline,Microplastics,5413000.0
+World,2056,Baseline,Total,41519000.0
+World,2056,Global ambition policy,Macroplastics,4443000.0
+World,2056,Global ambition policy,Microplastics,4944000.0
+World,2056,Global ambition policy,Total,9387000.0
+World,2056,Regional action policy,Macroplastics,16902000.0
+World,2056,Regional action policy,Microplastics,5206000.0
+World,2056,Regional action policy,Total,22108000.0
+World,2057,Baseline,Macroplastics,36674000.0
+World,2057,Baseline,Microplastics,5504000.0
+World,2057,Baseline,Total,42178000.0
+World,2057,Global ambition policy,Macroplastics,3588000.0
+World,2057,Global ambition policy,Microplastics,5023000.0
+World,2057,Global ambition policy,Total,8610000.0
+World,2057,Regional action policy,Macroplastics,16341999.0
+World,2057,Regional action policy,Microplastics,5290000.0
+World,2057,Regional action policy,Total,21632000.0
+World,2058,Baseline,Macroplastics,37238000.0
+World,2058,Baseline,Microplastics,5597000.0
+World,2058,Baseline,Total,42835000.0
+World,2058,Global ambition policy,Macroplastics,2756000.0
+World,2058,Global ambition policy,Microplastics,5103000.0
+World,2058,Global ambition policy,Total,7859000.0
+World,2058,Regional action policy,Macroplastics,15754000.0
+World,2058,Regional action policy,Microplastics,5376000.0
+World,2058,Regional action policy,Total,21130000.0
+World,2059,Baseline,Macroplastics,37799000.0
+World,2059,Baseline,Microplastics,5692000.0
+World,2059,Baseline,Total,43491000.0
+World,2059,Global ambition policy,Macroplastics,1928000.0
+World,2059,Global ambition policy,Microplastics,5184000.0
+World,2059,Global ambition policy,Total,7112000.0
+World,2059,Regional action policy,Macroplastics,15139000.0
+World,2059,Regional action policy,Microplastics,5463000.0
+World,2059,Regional action policy,Total,20602000.0
+World,2060,Baseline,Macroplastics,38365000.0
+World,2060,Baseline,Microplastics,5788000.0
+World,2060,Baseline,Total,44153000.0
+World,2060,Global ambition policy,Macroplastics,1174000.0
+World,2060,Global ambition policy,Microplastics,5267000.0
+World,2060,Global ambition policy,Total,6441000.0
+World,2060,Regional action policy,Macroplastics,14514000.0
+World,2060,Regional action policy,Microplastics,5552000.0
+World,2060,Regional action policy,Total,20066000.0

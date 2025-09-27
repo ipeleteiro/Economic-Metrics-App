@@ -1,0 +1,141 @@
+country,year,trade_transport_quality
+Canada,2000,
+Canada,2001,
+Canada,2002,
+Canada,2003,
+Canada,2004,
+Canada,2005,
+Canada,2006,
+Canada,2007,0.9213326874629414
+Canada,2008,
+Canada,2009,
+Canada,2010,0.9021708385447249
+Canada,2011,
+Canada,2012,0.9047544455847725
+Canada,2013,
+Canada,2014,0.9065191503420155
+Canada,2015,
+Canada,2016,0.9048042444034203
+Canada,2017,
+Canada,2018,0.7931188546768799
+Canada,2019,
+France,2000,
+France,2001,
+France,2002,
+France,2003,
+France,2004,
+France,2005,
+France,2006,
+France,2007,0.8787212265053679
+France,2008,
+France,2009,
+France,2010,0.8927035003393755
+France,2011,
+France,2012,0.8941716062053027
+France,2013,
+France,2014,0.8816818661740993
+France,2015,
+France,2016,0.8630483937503125
+France,2017,
+France,2018,0.8765386713394283
+France,2019,
+Germany,2000,
+Germany,2001,
+Germany,2002,
+Germany,2003,
+Germany,2004,
+Germany,2005,
+Germany,2006,
+Germany,2007,1.0
+Germany,2008,
+Germany,2009,
+Germany,2010,1.0
+Germany,2011,
+Germany,2012,1.0
+Germany,2013,
+Germany,2014,1.0
+Germany,2015,
+Germany,2016,1.0
+Germany,2017,
+Germany,2018,1.0
+Germany,2019,
+Italy,2000,
+Italy,2001,
+Italy,2002,
+Italy,2003,
+Italy,2004,
+Italy,2005,
+Italy,2006,
+Italy,2007,0.7803870858340448
+Italy,2008,
+Italy,2009,
+Italy,2010,0.8043416770894496
+Italy,2011,
+Italy,2012,0.8165641174225247
+Italy,2013,
+Italy,2014,0.8098089881430195
+Italy,2015,
+Italy,2016,0.7928535856481225
+Italy,2017,
+Italy,2018,0.8264867813418993
+Italy,2019,
+Japan,2000,
+Japan,2001,
+Japan,2002,
+Japan,2003,
+Japan,2004,
+Japan,2005,
+Japan,2006,
+Japan,2007,0.9737775624876471
+Japan,2008,
+Japan,2009,
+Japan,2010,0.952663308973254
+Japan,2011,
+Japan,2012,0.9470858031026514
+Japan,2013,
+Japan,2014,0.9416715411814428
+Japan,2015,
+Japan,2016,0.8905038750884825
+Japan,2017,
+Japan,2018,0.9599584880019767
+Japan,2019,
+United Kingdom,2000,
+United Kingdom,2001,
+United Kingdom,2002,
+United Kingdom,2003,
+United Kingdom,2004,
+United Kingdom,2005,
+United Kingdom,2006,
+United Kingdom,2007,0.9541107343533823
+United Kingdom,2008,
+United Kingdom,2009,
+United Kingdom,2010,0.8769246033304603
+United Kingdom,2011,
+United Kingdom,2012,0.8906439930788128
+United Kingdom,2013,
+United Kingdom,2014,0.9426569436310135
+United Kingdom,2015,
+United Kingdom,2016,0.9252813936230083
+United Kingdom,2017,
+United Kingdom,2018,0.8865490493389342
+United Kingdom,2019,
+United States,2000,
+United States,2001,
+United States,2002,
+United States,2003,
+United States,2004,
+United States,2005,
+United States,2006,
+United States,2007,0.9606663437314708
+United States,2008,
+United States,2009,
+United States,2010,0.9400401913661218
+United States,2011,
+United States,2012,0.957668642482121
+United States,2013,
+United States,2014,0.9518271627597401
+United States,2015,
+United States,2016,0.9081284320253805
+United States,2017,
+United States,2018,0.893222634671938
+United States,2019,

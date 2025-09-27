@@ -1,0 +1,43 @@
+metric,description
+life_expectancy, Life expectancy at a certain age is the mean additional number of years that a person of that age can expect to live if subjected throughout the rest of their life to the current mortality conditions (age-specific probabilities of dying i.e. the death rates observed for the current period)
+pollution, This measures the dalys (disability-adjusted life year) from neoplasms attributed to particulate matter pollution per 100000 people in both sexes (age standardized)
+income_inequality, Income inequality refers to how unevenly income is distributed throughout a population. The less equal the distribution the greater the income inequality
+wealth_inequality, Wealth refers to the total amount of assets of an individual or household. This may include financial assets such as bonds and stocks property and private pension rights. Wealth inequality therefore refers to the unequal distribution of assets in a group of people
+GDP, Gross domestic product is a monetary measure of the market value of all the final goods and services produced in a specific time period by a country or countries
+GDP_per_capita, GDP divided by the country's popullation
+GDP_PPP, GDP converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as the U.S. dollar has in the United States
+global_carbon_budget, The number of greenhouse gases that can be spent (emitted) for a given level of global warming. A carbon budget is a maximum amount of cumulative net global anthropogenic carbon dioxide (CO2) emissions that would (with some probability) limit global warming to a given level
+greenhouse_gas_emissions, Greenhouse gas emissions from human activities intensify the greenhouse effect. This contributes to climate change
+child_mortality, The mortality rate of children aged under 5 years is the probability that a child born in a specific year or period will die before reaching the age of 5 years - subject to the age-specific mortality rates of that period
+renewable_electricity_capacity,
+GNI,
+GNI_per_capita,
+GNI_PPP,
+inflation,
+current_account_pct_GDP,
+R&D_expenditure_pct_GDP,
+government_expenditure_pct_GDP,
+education_pct_government_expenditure,
+health_pct_government_expenditure,
+government_effectiveness,
+income_tax,
+hours_to_file_taxes,
+rural_living_pct_popoluation,
+interest_rates,
+migration,
+labour_participation,
+political_stability,
+trade_transport_quality,
+forest_area,
+forest_depletion_pct_GNI,
+fertility_rate,
+mental_health,
+pedestrian_road_injuries,
+body_mass_index,
+unsafe_water,
+bullying_victimisation,
+environmental_occupational_risks,
+alcohol_use_disorders,
+drug_use,
+literacy_rate,
+unemployment,

@@ -1,0 +1,71 @@
+country,policy,amount
+Italy,Income_Tax,0
+Italy,Demerit_Goods_Tax,2
+Italy,Education_Spending,5
+Italy,Healthcare_Spending,5
+Italy,Environment_Spending,5
+Italy,Benefits_Spending,5
+Italy,Infrastructure,5
+Italy,Regulation,6
+Italy,Protectionism,6
+Italy,Interest_Rates,0
+United Kingdom,Income_Tax,0
+United Kingdom,Demerit_Goods_Tax,2
+United Kingdom,Education_Spending,5
+United Kingdom,Healthcare_Spending,5
+United Kingdom,Environment_Spending,5
+United Kingdom,Benefits_Spending,5
+United Kingdom,Infrastructure,5
+United Kingdom,Regulation,6
+United Kingdom,Protectionism,6
+United Kingdom,Interest_Rates,0
+United States of America,Income_Tax,0
+United States of America,Demerit_Goods_Tax,2
+United States of America,Education_Spending,5
+United States of America,Healthcare_Spending,5
+United States of America,Environment_Spending,5
+United States of America,Benefits_Spending,5
+United States of America,Infrastructure,5
+United States of America,Regulation,6
+United States of America,Protectionism,6
+United States of America,Interest_Rates,0
+France,Income_Tax,0
+France,Demerit_Goods_Tax,2
+France,Education_Spending,5
+France,Healthcare_Spending,5
+France,Environment_Spending,5
+France,Benefits_Spending,5
+France,Infrastructure,5
+France,Regulation,6
+France,Protectionism,6
+France,Interest_Rates,0
+Japan,Income_Tax,0
+Japan,Demerit_Goods_Tax,2
+Japan,Education_Spending,5
+Japan,Healthcare_Spending,5
+Japan,Environment_Spending,5
+Japan,Benefits_Spending,5
+Japan,Infrastructure,5
+Japan,Regulation,6
+Japan,Protectionism,5
+Japan,Interest_Rates,0
+Germany,Income_Tax,0
+Germany,Demerit_Goods_Tax,2
+Germany,Education_Spending,5
+Germany,Healthcare_Spending,5
+Germany,Environment_Spending,5
+Germany,Benefits_Spending,5
+Germany,Infrastructure,5
+Germany,Regulation,6
+Germany,Protectionism,6
+Germany,Interest_Rates,0
+Canada,Income_Tax,0
+Canada,Demerit_Goods_Tax,2
+Canada,Education_Spending,5
+Canada,Healthcare_Spending,5
+Canada,Environment_Spending,5
+Canada,Benefits_Spending,5
+Canada,Infrastructure,5
+Canada,Regulation,6
+Canada,Protectionism,6
+Canada,Interest_Rates,0

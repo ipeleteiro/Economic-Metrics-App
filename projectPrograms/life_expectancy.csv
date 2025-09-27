@@ -1,0 +1,169 @@
+country,year,life_expectancy_0
+Italy,2000,79.6
+Italy,2001,79.9
+Italy,2002,80.1
+Italy,2003,80.2
+Italy,2004,81.0
+Italy,2005,81.0
+Italy,2006,81.4
+Italy,2007,81.5
+Italy,2008,81.6
+Italy,2009,81.8
+Italy,2010,82.1
+Italy,2011,82.2
+Italy,2012,82.3
+Italy,2013,82.7
+Italy,2014,82.9
+Italy,2015,82.5
+Italy,2016,83.0
+Italy,2017,82.7
+Italy,2018,83.2
+Italy,2019,83.6
+Italy,2020,82.4
+Italy,2021,82.9
+Italy,2022,84.1
+Italy,2023,84.2
+United Kingdom,2000,77.9
+United Kingdom,2001,78.1
+United Kingdom,2002,78.2
+United Kingdom,2003,78.3
+United Kingdom,2004,78.9
+United Kingdom,2005,79.1
+United Kingdom,2006,79.4
+United Kingdom,2007,79.5
+United Kingdom,2008,79.7
+United Kingdom,2009,80.2
+United Kingdom,2010,80.4
+United Kingdom,2011,80.8
+United Kingdom,2012,80.9
+United Kingdom,2013,80.9
+United Kingdom,2014,81.2
+United Kingdom,2015,80.9
+United Kingdom,2016,81.1
+United Kingdom,2017,81.2
+United Kingdom,2018,81.1
+United Kingdom,2019,81.7
+United Kingdom,2020,80.4
+United Kingdom,2021,80.7
+United Kingdom,2022,82.2
+United Kingdom,2023,82.3
+United States,2000,76.8
+United States,2001,76.9
+United States,2002,77.0
+United States,2003,77.2
+United States,2004,77.6
+United States,2005,77.6
+United States,2006,77.8
+United States,2007,78.1
+United States,2008,78.2
+United States,2009,78.6
+United States,2010,78.8
+United States,2011,78.8
+United States,2012,78.9
+United States,2013,79.0
+United States,2014,79.0
+United States,2015,78.9
+United States,2016,78.8
+United States,2017,78.8
+United States,2018,79.0
+United States,2019,79.1
+United States,2020,77.4
+United States,2021,77.2
+United States,2022,78.2
+United States,2023,79.7
+France,2000,79.0
+France,2001,79.2
+France,2002,79.4
+France,2003,79.4
+France,2004,80.3
+France,2005,80.3
+France,2006,80.7
+France,2007,81.0
+France,2008,81.0
+France,2009,81.2
+France,2010,81.4
+France,2011,81.8
+France,2012,81.8
+France,2013,82.0
+France,2014,82.5
+France,2015,82.2
+France,2016,82.4
+France,2017,82.5
+France,2018,82.6
+France,2019,82.7
+France,2020,82.2
+France,2021,82.5
+France,2022,83.2
+France,2023,83.4
+Japan,2000,81.2
+Japan,2001,81.5
+Japan,2002,81.8
+Japan,2003,81.9
+Japan,2004,82.1
+Japan,2005,82.0
+Japan,2006,82.4
+Japan,2007,82.6
+Japan,2008,82.6
+Japan,2009,83.0
+Japan,2010,82.9
+Japan,2011,82.7
+Japan,2012,83.2
+Japan,2013,83.4
+Japan,2014,83.7
+Japan,2015,83.9
+Japan,2016,84.1
+Japan,2017,84.2
+Japan,2018,84.3
+Japan,2019,84.4
+Japan,2020,84.7
+Japan,2021,84.8
+Japan,2022,84.8
+Japan,2023,84.9
+Germany,2000,78.1
+Germany,2001,78.4
+Germany,2002,78.5
+Germany,2003,78.5
+Germany,2004,79.1
+Germany,2005,79.3
+Germany,2006,79.6
+Germany,2007,79.7
+Germany,2008,79.8
+Germany,2009,79.9
+Germany,2010,80.1
+Germany,2011,80.4
+Germany,2012,80.5
+Germany,2013,80.5
+Germany,2014,80.9
+Germany,2015,80.6
+Germany,2016,80.8
+Germany,2017,80.9
+Germany,2018,81.2
+Germany,2019,81.6
+Germany,2020,81.1
+Germany,2021,80.6
+Germany,2022,81.0
+Germany,2023,82.2
+Canada,2000,79.2
+Canada,2001,79.5
+Canada,2002,79.6
+Canada,2003,79.7
+Canada,2004,80.0
+Canada,2005,80.1
+Canada,2006,80.5
+Canada,2007,80.5
+Canada,2008,80.7
+Canada,2009,81.1
+Canada,2010,81.3
+Canada,2011,81.5
+Canada,2012,81.7
+Canada,2013,81.8
+Canada,2014,81.9
+Canada,2015,81.9
+Canada,2016,82.0
+Canada,2017,82.0
+Canada,2018,82.1
+Canada,2019,82.4
+Canada,2020,82.0
+Canada,2021,82.7
+Canada,2022,82.8
+Canada,2023,83.0

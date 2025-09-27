@@ -1,0 +1,188 @@
+import pandas as pd
+import json
+import plotly.express as px
+import dash
+from dash import html, dcc, callback, Output, Input, Patch
+import dash_bootstrap_components as dbc
+
+import sys
+sys.path.append('/Users/irenepeleteiropaniagua/Documents/shhs/computing/projectPrograms')
+from mapClasses import *
+
+# registering this page as the homepage (path='/') to the app registry
+dash.register_page(__name__, name="Projected Map")
+
+# MAP CLASSES
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SProjectedData = ProjectedCCMap('blue', 'Projected.csv')
+EProjectedData = ProjectedCCMap('green', 'Projected.csv')
+
+projectedMaps = {'SProjectedData': SProjectedData, 'EProjectedData': EProjectedData}
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ccmap, userOptions = projectedMaps['SProjectedData'].createMap()
+df = projectedMaps['SProjectedData'].getDataframe()
+df = df.loc[projectedMaps['SProjectedData'].mapDate]
+
+quarters = []
+for quarter in range(201900, 202125, 25):
+    quarter =  quarter/100
+    year = int(quarter//1)
+    quarter = int((quarter%1)*4)
+    quarters.append(str(year)+" QR:"+str(quarter))
+for year in range(2025, 2050, 5):
+    quarters.append(str(year))
+
+
+layout = html.Div(
+    [
+
+        #DROPDOWN OPTION BETWEEN SOCIAL AND ENVIRONMENT
+        dbc.Row(
+            dcc.Dropdown(options=['Environment', 'Social'],
+                            id='map-choiceP',
+                            value='Social',
+                            clearable=False
+            )
+        ),
+
+        html.Hr(),
+
+        dbc.Row(
+            dcc.RadioItems(options=quarters,
+                            id='date-choiceP',
+                            value="2019 QR:0",
+                            inline=True,
+                            labelStyle={'padding':'10px'}
+            )
+        ),
+
+        html.Div(id='warningP', style= {'textAlign':'center'}),
+
+        dbc.Row(
+            [
+                dbc.Col(
+                    [
+                        dcc.Checklist(options=projectedMaps['EProjectedData'].getMetrics(),
+                                       id='metric-choiceP')
+                    ], xs=4, sm=3, md=2, lg=2, xl=2, xxl=2
+                ),
+                
+                dbc.Col(
+                    [
+                        dcc.Graph(id='projectedMap',  
+                                  figure= ccmap)
+                    ], xs=8, sm=9, md=10, lg=10, xl=10, xxl=10
+                )
+            ]
+        ),
+
+        html.Hr(),
+
+    ]
+)
+
+@callback(
+    Output(component_id='metric-choiceP', component_property='options'),
+    Input(component_id='map-choiceP', component_property='value')
+)
+def setMetricChoices(mapChoice):
+    if mapChoice == 'Environment':
+        return projectedMaps['EProjectedData'].getMetrics()
+    elif mapChoice == 'Social':
+        return projectedMaps['SProjectedData'].getMetrics()
+    else:
+        return []
+
+@callback(
+    Output(component_id='metric-choiceP', component_property='value'),
+    Input(component_id='metric-choiceP', component_property='options')
+)
+def setInitialValue(metricOptions):
+    value = metricOptions[0]
+    return [value]
+
+@callback(
+    Output(component_id='warningP', component_property='children'),
+    Input(component_id='metric-choiceP', component_property='value')
+)
+def changeWaring(metricChoice):
+    if len(metricChoice) > 0:
+        for metric in metricChoice:
+            if metric in ['income_tax','hours_to_file_taxes','governement_effectiveness','education_pct_government_expenditure','interest_rates','trade_transport_quality','political_stability','fertility_rate','literacy_rate']:
+                newWarning = 'At least one of the metrics selected is missing some data.'
+                break
+            else:
+                newWarning = ''
+        return newWarning
+    else:
+        return 'At least one metric must be selected.'
+
+@callback(
+    Output(component_id='projectedMap', component_property='figure'),
+    [Input(component_id='metric-choiceP', component_property='value'),
+     Input(component_id='date-choiceP', component_property='value'),
+     Input(component_id='map-choiceP', component_property='value')]
+)
+def update_graph(metricChoice, dateChoice, mapChoice):
+    patchedFig = Patch()
+    
+    print(metricChoice, dateChoice, mapChoice)
+
+    df = projectedMaps['SProjectedData'].getDataframe()
+    df = df.loc[dateChoice]
+
+
+    if mapChoice == 'Environment':
+        userOptions = projectedMaps['EProjectedData'].getMetrics()
+        metrics = df.columns.values.tolist()
+        for metric in metrics:
+            if metric not in userOptions and metric != 'country':
+                df = df.drop(metric, axis=1)
+        patchedFig['layout']['coloraxis']['colorscale'] = ((0.0, "rgb(179, 242, 180)"), (1.0, "rgb(38, 128, 13)"))
+    
+    elif mapChoice == 'Social':
+        userOptions = projectedMaps['SProjectedData'].getMetrics()
+        metrics = df.columns.values.tolist()
+        for metric in metrics:
+            if metric not in userOptions and metric != 'country':
+                df = df.drop(metric, axis=1)
+        patchedFig['layout']['coloraxis']['colorscale'] = ((0.0, "rgb(200, 240, 255)"), (1.0,  "rgb(50, 50, 255)")) 
+
+
+    if len(metricChoice) == 0:
+        mean = []
+    elif len(metricChoice) == 1:
+        mean = df[metricChoice].values.tolist()
+        fix = []
+        for i in range(len(mean)):
+            fix.append(mean[i][0])
+        mean = fix
+    elif len(metricChoice) > 1:
+        dataList = df[metricChoice[0]]
+        for i in range(len(metricChoice)-1):
+            i += 1
+            dataList = pd.concat([dataList, df[metricChoice[i]]], axis=1)
+        mean = dataList.mean('columns')
+        mean = mean.tolist()
+    
+    patchedFig['data'][0]['z'] = mean
+
+    if len(metricChoice) == 0:
+        pass
+    elif len(metricChoice) == 1:
+        patchedFig['layout']['coloraxis']['colorbar']['title']['text'] = metricChoice[0]
+        patchedFig['data'][0]['hovertemplate'] = 'country=%{location}<br>'+ metricChoice[0] +'=%{z}<extra></extra>'
+    else:
+        patchedFig['layout']['coloraxis']['colorbar']['title']['text'] = 'Average'
+        patchedFig['data'][0]['hovertemplate'] = 'country=%{location}<br>Average=%{z}<extra></extra>'
+
+        # inside the geojson file, the hovertemplate is the following: 'country=%{location}<br>GDP=%{z}<extra></extra>' 
+        # to change the metric, I simply need to change the name of the metric (from GDP to whatever ‘value’ is being chosen)
+
+    return patchedFig
